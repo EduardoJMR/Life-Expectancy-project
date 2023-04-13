@@ -32,7 +32,7 @@ data_filt2 = data_filt2.rename(columns={'Country':'country',
                                         'Malignant skin melanoma':'malignant_skin_melanoma'})
 ```
 
-## Average number of liver cancer cases by country and sex?
+## Average number of liver cancer cases by country and sex?.
 
 ### Transforming the data
 
@@ -50,7 +50,7 @@ liver_cancer.plot(kind="barh")
 ```
 ![image](https://github.com/EduardoJMR/Life-Expectancy-project/blob/master/images/Capture2.JPG)
 
-## Country with the highest life expectancy?
+## Country with the highest life expectancy?.
 
 ### Visualizing the data
 
@@ -110,7 +110,9 @@ Ireland_diseases_plot
 
 ![image](https://github.com/EduardoJMR/Life-Expectancy-project/blob/master/images/Capture6.JPG)
 
-### Comparing data studies
+## Visual comparison of diseases amounts countries.
+
+### Visualizing the data
 
 ```python
 Ireland_data=data_Ireland.pivot_table(values=['alcohol','life_expectancy_at_birth',
