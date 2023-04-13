@@ -235,7 +235,6 @@ fig.suptitle("Normed values by gender and disease for Ireland, Thailand, and Spa
 # Show the figure
 plt.show()
 ```
-
 ![image](https://github.com/EduardoJMR/Life-Expectancy-project/blob/master/images/output.png)
 
 
